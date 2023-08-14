@@ -11,7 +11,7 @@
     "serve:ssr": "node dist/dlsoft/server/main.js",
     "build:ssr": "ng build && ng run dlsoft:server",
     "prerender": "ng run dlsoft:prerender",
-    "copy:files": "node ./scripts/copyFiles.js",
+    "copy:files": "node ./scripts/copyFiles.js"
   },
   "private": true,
   "dependencies": {
