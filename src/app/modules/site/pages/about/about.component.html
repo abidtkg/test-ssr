@@ -2,6 +2,9 @@
 <!-- About section start -->
 
 <section class="container about" id="about">
+    <ul>
+        <li *ngFor="let post of posts"> {{ post.body }} </li>
+    </ul>
     <h1 class="text-center mt-3 pt-3">About  <span class="text-green">DL Soft.</span></h1>
     <div class="about-text mt-5 pt-5">
         <div class="row">
@@ -37,5 +40,6 @@
         </div>
     </div>
 </section>
+
 
 <!-- About section end -->
